@@ -30,8 +30,8 @@
     }
     .top {
       display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+      align-items: baseline;
+      gap: 16px;
     }
     .logo {
       font-family: 'Playfair Display', serif;
@@ -39,6 +39,17 @@
       font-weight: 700;
       letter-spacing: 0.08em;
       color: #1a1a1a;
+    }
+    .fields {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: #888;
+      letter-spacing: 0.03em;
+    }
+    .fields span {
+      margin: 0 6px;
+      color: #ccc;
     }
     .url {
       font-family: 'Cormorant Garamond', serif;
@@ -85,17 +96,6 @@
       letter-spacing: 0.04em;
       margin-bottom: 36px;
     }
-    .fields {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 15px;
-      font-weight: 500;
-      color: #444;
-      letter-spacing: 0.03em;
-    }
-    .fields span {
-      margin: 0 6px;
-      color: #aaa;
-    }
     .bottom {
       border-top: 0.5px solid #d8d7d2;
       padding-top: 24px;
@@ -118,13 +118,13 @@
   <div class="wrap">
     <div class="top">
       <div class="logo">MAYNOWORKS</div>
+      <p class="fields">Art Therapy <span>·</span> Publishing <span>·</span> Workshops</p>
     </div>
 
     <div class="center">
       <p class="tag">— COMING SOON</p>
       <p class="status">Website is currently in progress.</p>
       <p class="soon">See you soon.</p>
-      <p class="fields">Art Therapy <span>·</span> Publishing <span>·</span> Workshops</p>
     </div>
 
     <div class="bottom">
