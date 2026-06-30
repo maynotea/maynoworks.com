@@ -31,7 +31,7 @@
     .main {
       flex: 1;
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: space-between;
       gap: 40px;
       padding: 40px 0;
@@ -138,7 +138,7 @@
     @media (max-width: 700px) {
       .wrap { padding: 36px 28px; }
       .main { flex: 1; flex-direction: column-reverse; align-items: flex-start; justify-content: center; gap: 32px; padding: 0; }
-      .photo-wrap { align-self: center; }
+      .photo-wrap { align-self: flex-start; }
       .photo-wrap img { max-width: 220px; }
       .copy { font-size: 15px; }
     }
